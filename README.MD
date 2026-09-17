@@ -56,6 +56,12 @@ src/
 3. Utilize Java 21 ou superior.
 4. Execute a classe `Principal`.
 
+## Arquitetura
+
+As operações foram mantidas na classe `Principal` para seguir o escopo proposto no teste.
+Em uma aplicação maior, essas regras poderiam ser separadas em uma classe de serviço, 
+como `FuncionarioService`, deixando a `Principal` apenas responsável pela execução do programa.
+
 ## Autor
 
 Gustavo Marinho Prado
